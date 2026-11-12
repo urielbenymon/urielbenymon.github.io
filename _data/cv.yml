@@ -1,0 +1,178 @@
+cv:
+  name: Uriel Benymon
+  email: udb2101@columbia.edu
+  email_secondary: uriel.benymon@outlook.com
+  website: https://urielbenymon.github.io
+  summary: >-
+    Natural language processing and interpretable machine
+    learning, particularly how language models learn compared with human
+    learners, what drives model predictions, and robust evaluation.
+  sections:
+    Education:
+      - institution: Columbia University
+        area: Information Science (Major), Mathematics (Minor)
+        degree: Bachelor of Arts
+        start_date: 2024-09
+        end_date: 2027-05
+
+      - institution: Spartanburg Community College
+        area: Engineering Track
+        degree: Associate of Science
+        start_date: 2022-01
+        end_date: 2024-07
+        highlights:
+          - Graduate with Honors
+
+    Publications:
+      - title: "Does Lifestyle Information Improve Hypertension Prediction? A Leakage-Controlled Evaluation on NHANES"
+        publisher: "ML4H 2026, Findings Track"
+        date: "2026"
+        url: "https://openreview.net/forum?id=BW9QSU8cTo"
+        summary: "Uriel Benymon."
+
+      - title: "System-Prompt Invariance for LLM-as-Judge Evaluation: A Linguistic Robustness Study"
+        publisher: "NeurIPS 2026, LP4FM Workshop"
+        date: "2026"
+        url: "https://openreview.net/forum?id=iTzPbvsTof"
+        summary: "Uriel Benymon, Albert Ming Wei, Zhicheng Guo, Xinbei Qiu, Clara Resnick."
+
+
+    Posters & Presentations:
+      - bullet: >-
+          **Uriel Benymon.** A Comparative and Interpretable Machine Learning
+          Investigation of Hypertension Prediction Using NHANES Data.
+          Abstract published in an abstract booklet and poster presented,
+          Columbia University Undergraduate Research Symposium, 2026.
+
+      - bullet: >-
+          **Uriel Benymon.** Exploring Improvements to B-Tree Index
+          Structures for Database Optimization. Poster presented,
+          Columbia GS Research Festival, 2026. Abstract published in
+          an abstract booklet and poster presented, Columbia University
+          Undergraduate Research Symposium, 2025.
+
+    Research Experience:
+      - bullet: >-
+          **Bancroft Research Scholar | Columbia University**
+          (February 2026 – April 2026).
+          Advisor: Professor Ansaf Salleb-Aouissi.
+
+          - Developed a hypertension-prediction study using NHANES
+            2017–March 2020 pre-pandemic data, conducting exploratory
+            data analysis and building a preliminary multi-model ML pipeline.
+          - Independently extended the project into a leakage-controlled,
+            cross-validated study of 8,024 participants with five ML models,
+            hyperparameter tuning, bootstrap inference, and SHAP-based
+            interpretability.
+
+      - bullet: >-
+          **RISE Scholar | Columbia University**
+          (April 2025 – July 2025).
+          Advisor: Professor Paul Blaer.
+
+          - Benchmarked PostgreSQL's B-Tree index against other index
+            types (Hash, BRIN, etc.) using a custom Java/SQL environment
+            across randomized, standardized workloads.
+          - Began testing lightweight B-Tree modifications
+            (node capacity/configuration changes) under concurrent
+            operations to explore performance trade-offs.
+
+    Independent Research Projects:
+      - bullet: |-
+          **Project Lead | System-Prompt Invariance for LLM-as-Judge Study**
+          (January 2026 – August 2026).
+
+          - Led a five-person research team originating from a Columbia
+            University LLM course project. Designed linguistic perturbation
+            experiments and developed a Python evaluation pipeline comprising
+            324 judgments across three LLM graders, 108 model responses,
+            and four response-generating models.
+          - Recruited blinded volunteer human raters to validate evaluation
+            outcomes, obtaining Krippendorff's alpha of approximately 0.93
+            and 98% exact agreement with automated scores. Grader format
+            compliance ranged from approximately 57% to 100%.
+
+    Teaching Experience:
+      - bullet: >-
+          Teaching Assistant III — Columbia University
+          (June 2026 – Present).
+          Introduction to Computer Science and Programming in Java
+          (COMS W1004).
+
+      - bullet: >-
+          Course Assistant — Columbia University
+          (January 2026 – May 2026).
+          Data Structures in Java (COMS W3134).
+
+      - bullet: >-
+          TRIO SSS Peer Tutor — Spartanburg Community College
+          (October 2023 – December 2025).
+          Provided in-person and virtual tutoring in Calculus I–III,
+          C#, C++, Java, SQL, and other coursework.
+
+    Academic Service:
+      - bullet: >-
+          Reviewer — NeurIPS 2026 Workshop on Linguistic Principles
+          for Foundation Models (LP4FM)
+          (September 2026).
+          Reviewed three research papers.
+
+      - bullet: >-
+          Research Peer Advisor — Columbia University
+          (October 2025).
+          Advised undergraduate peers on research opportunities and
+          shared research experiences at Columbia GS academic and
+          research events.
+
+    Honors and Awards:
+      - title: "Columbia GS Honor Society"
+        awarder: "Columbia University"
+        date: "2026-10"
+
+      - title: "Bi Ran and Chuck Scholarship"
+        awarder: "Columbia University School of General Studies"
+        date: "2026-07"
+
+      - title: "Columbia GS Service Award"
+        awarder: "Columbia University"
+        date: "2026-04"
+
+      - title: "Dean's List"
+        awarder: "Columbia University and Spartanburg Community College"
+        summary: "Multiple terms"
+
+      - title: "Columbia GS Phi Theta Kappa Scholarship"
+        awarder: "Columbia University"
+        summary: "Multiple terms"
+
+      - title: "Clemson SPECTRA Scholarship"
+        awarder: "Clemson University"
+        date: "2023-08"
+
+      - title: "Phi Theta Kappa Honor Society"
+        date: "2023-04"
+
+      - title: "National Technical Honor Society"
+        date: "2023-04"
+
+    Skills:
+      - name: "Programming Languages"
+        keywords:
+          - Python
+          - Java
+          - SQL
+          - C++
+          - C#
+          - C
+
+      - name: "Libraries and Tools"
+        keywords:
+          - pandas
+          - NumPy
+          - scikit-learn
+          - XGBoost
+          - SHAP
+          - SciPy
+          - NLTK
+          - imbalanced-learn
+          - LaTeX

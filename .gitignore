@@ -1,0 +1,60 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+output/playwright/
+test-results/
+vendor
+
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
+
+# Local template backup
+_template_backup/
+
+# Only publish the website deployment workflow
+.github/workflows/*
+!.github/workflows/deploy.yml
+
+# Local CV backup
+_data/cv.yml.bak
+
+# Windows download metadata
+*:Zone.Identifier
+
+# Unused template CV example
+assets/rendercv/rendercv_output/Albert_Einstein_CV.pdf
+
+# Unused al-folio example assets
+assets/audio/
+assets/video/
+assets/jupyter/
+assets/bibliography/
+assets/json/
+assets/img/star-history-dark.svg
+assets/img/star-history-light.svg
+
+# Unused container development infrastructure
+.devcontainer/
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose-slim.yml
+
+# Unused GitHub community and repository maintenance templates
+.github/ISSUE_TEMPLATE/
+.github/pull_request_template.md
+.github/GIT_WORKFLOW.md
+.github/release.yml
+.github/stale.yml
