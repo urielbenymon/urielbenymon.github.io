@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://urielbenymon.github.io/sitemap.xml
